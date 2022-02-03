@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ChkboxController">
+<children>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="926.0" layoutY="534.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(19).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="862.0" layoutY="534.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(19).png" />
+         </image>
+      </ImageView>
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="83.0" layoutX="-7.0" layoutY="-8.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1014.0" />
+<ImageView fitHeight="164.0" fitWidth="1028.0" layoutX="-15.0" layoutY="70.0" pickOnBounds="true">
+<image>
+<Image url="@South.png" />
+</image>
+</ImageView>
+<ImageView fitHeight="60.0" fitWidth="115.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@LOGO_Mejwaani.png" />
+</image>
+</ImageView>
+<Text layoutX="128.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEJWAANI">
+<font>
+<Font name="Calisto MT" size="36.0" />
+</font>
+</Text>
+<Text layoutX="45.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SOUTH INDIAN CUISINE">
+<font>
+<Font name="Baskerville Old Face" size="25.0" />
+</font>
+</Text>
+<Line endX="329.0000305175781" layoutX="146.0" layoutY="309.0" startX="-100.0" stroke="ORANGE" />
+<Text layoutX="57.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BREAKFAST">
+<font>
+<Font name="Book Antiqua" size="20.0" />
+</font>
+</Text>
+<Text layoutX="382.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAINS">
+<font>
+<Font name="Book Antiqua" size="20.0" />
+</font>
+</Text>
+<Text layoutX="686.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESSERTS">
+<font>
+<Font name="Book Antiqua" size="20.0" />
+</font>
+</Text>
+<Line endX="28.666671752929688" layoutX="155.0" layoutY="357.0" startX="-100.0" stroke="ORANGE" />
+<Line endX="-18.666656494140625" layoutX="483.0" layoutY="357.0" startX="-100.0" stroke="ORANGE" />
+<Line endX="9.33331298828125" layoutX="787.0" layoutY="358.0" startX="-100.0" stroke="ORANGE" />
+      <ImageView fitHeight="68.0" fitWidth="168.0" layoutX="838.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Screenshot%20(16).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="862.0" layoutY="532.0" mnemonicParsing="false" onAction="#switchToMahaPaid3" opacity="0.0" prefHeight="60.0" prefWidth="58.0" text="Button" />
+      <Button layoutX="926.0" layoutY="527.0" mnemonicParsing="false" onAction="#switchToGujuPaid2" opacity="0.0" prefHeight="60.0" prefWidth="50.0" text="Button" />
+      <CheckBox fx:id="CS2vada" layoutX="35.0" layoutY="372.0" mnemonicParsing="false" text="VADA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2masala" layoutX="35.0" layoutY="396.0" mnemonicParsing="false" text="MASALA VADA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2idli" layoutX="35.0" layoutY="421.0" mnemonicParsing="false" text="IDLI">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2sambar" layoutX="35.0" layoutY="446.0" mnemonicParsing="false" text="SAMBAR IDLI">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2rava" layoutX="35.0" layoutY="471.0" mnemonicParsing="false" text="RAVA KHICHDI">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2uppama" layoutX="35.0" layoutY="495.0" mnemonicParsing="false" text="UPPAMA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2onion" layoutX="35.0" layoutY="519.0" mnemonicParsing="false" text="ONION UTTAPPAM">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2plain" layoutX="360.0" layoutY="372.0" mnemonicParsing="false" text="PLAIN DOSA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2masdosa" layoutX="360.0" layoutY="398.0" mnemonicParsing="false" text="MASALA DOSA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2paneer" layoutX="360.0" layoutY="424.0" mnemonicParsing="false" text="PANEER DOSA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2ravadosa" layoutX="360.0" layoutY="450.0" mnemonicParsing="false" text="RAVA DOSA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2papermas" layoutX="360.0" layoutY="475.0" mnemonicParsing="false" text="PAPER MASALA DOSA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2paperpaneer" layoutX="360.0" layoutY="500.0" mnemonicParsing="false" text="PAPER PANEER DOSA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2paal" layoutX="657.0" layoutY="372.0" mnemonicParsing="false" text="PAAL PAYASAM">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2kheer" layoutX="657.0" layoutY="396.0" mnemonicParsing="false" text="RICE KHEER">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2pongal" layoutX="657.0" layoutY="421.0" mnemonicParsing="false" text="SWEET PONGAL">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2banpongal" layoutX="657.0" layoutY="446.0" mnemonicParsing="false" text="SWEET BANANA PONGAL">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2ela" layoutX="657.0" layoutY="471.0" mnemonicParsing="false" text="ELA ADA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CS2swtidli" layoutX="657.0" layoutY="495.0" mnemonicParsing="false" text="SWEET IDLI">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="755.0" layoutY="269.0" mnemonicParsing="false" onAction="#PTP4" prefHeight="35.0" prefWidth="210.0" style="-fx-background-color: FFEE99; -fx-border-color: FFA500;" text="PROCEED TO PAYMENT">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="797.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@60817.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="795.0" layoutY="21.0" mnemonicParsing="false" onAction="#switchToWelcomePage" opacity="0.0" prefHeight="35.0" prefWidth="36.0" text="Button" />
+</children>
+</AnchorPane>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PageController">
+<children>
+<ImageView fitHeight="600.0" fitWidth="1000.0" layoutX="-2.0" opacity="0.5" pickOnBounds="true">
+<image>
+<Image url="@Screenshot%202021-10-28%20192332.png" />
+</image>
+</ImageView>
+      <Canvas height="200.0" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="75.0" layoutX="-9.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1016.0" />
+      <ImageView fitHeight="60.0" fitWidth="115.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@LOGO_Mejwaani.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="142.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEJWAANI">
+         <font>
+            <Font name="Calisto MT" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="77.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TABLE RESERVATION">
+         <font>
+            <Font name="Footlight MT Light" size="40.0" />
+         </font>
+      </Text>
+      <Text layoutX="100.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DATE">
+         <font>
+            <Font name="Footlight MT Light" size="27.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="572.0" layoutY="224.0" prefHeight="42.0" prefWidth="140.0" />
+      <TextArea layoutX="332.0" layoutY="224.0" prefHeight="42.0" prefWidth="140.0" />
+      <TextArea layoutX="94.0" layoutY="336.0" prefHeight="42.0" prefWidth="376.0" />
+      <TextArea layoutX="91.0" layoutY="435.0" prefHeight="92.0" prefWidth="382.0" />
+      <Button layoutX="699.0" layoutY="328.0" mnemonicParsing="false" onAction="#switchToMahaPaid3" prefHeight="60.0" prefWidth="190.0" style="-fx-background-color: BLACK; -fx-background-radius: 20;" text="PRE-ORDER" textFill="WHITE">
+         <font>
+         <Font name="Felix Titling" size="25.0" />   
+         </font>
+      </Button>
+      <Button layoutX="699.0" layoutY="434.0" mnemonicParsing="false" onAction="#switchToWelcomePage" prefHeight="60.0" prefWidth="190.0" style="-fx-background-color: BLACK; -fx-background-radius: 20;" text="RESERVE" textFill="WHITE">
+         <font>
+             <Font name="Felix Titling" size="25.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="68.0" fitWidth="168.0" layoutX="838.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Screenshot%20(16).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="338.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TIME">
+         <font>
+            <Font name="Footlight MT Light" size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="582.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEATS">
+         <font>
+            <Font name="Footlight MT Light" size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="99.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMAIL">
+         <font>
+            <Font name="Footlight MT Light" size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="99.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOTES">
+         <font>
+            <Font name="Footlight MT Light" size="27.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="797.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@60817.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="786.0" layoutY="16.0" mnemonicParsing="false" onAction="#switchToWelcomePage" opacity="0.0" prefHeight="37.0" prefWidth="52.0" text="Button" />
+      <DatePicker layoutX="100.0" layoutY="228.0" prefHeight="42.0" prefWidth="140.0" />
+</children>
+</AnchorPane>

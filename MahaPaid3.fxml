@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ChkboxController">
+<children>
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="83.0" layoutX="-7.0" layoutY="-8.0" stroke="BLACK" strokeType="INSIDE" width="1014.0" />
+<ImageView fitHeight="164.0" fitWidth="1025.0" layoutX="-13.0" layoutY="70.0" pickOnBounds="true">
+<image>
+<Image url="@MAHA.png" />
+</image>
+</ImageView>
+<ImageView fitHeight="60.0" fitWidth="115.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@LOGO_Mejwaani.png" />
+</image>
+</ImageView>
+<Text layoutX="130.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEJWAANI">
+<font>
+<Font name="Calisto MT" size="36.0" />
+</font>
+</Text>
+<Text layoutX="45.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAHARASHTRIAN CUISINE">
+<font>
+<Font name="Baskerville Old Face" size="25.0" />
+</font>
+</Text>
+<Line endX="329.0000305175781" layoutX="146.0" layoutY="309.0" startX="-100.0" stroke="ORANGE" />
+<Text layoutX="57.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BREAKFAST">
+<font>
+<Font name="Book Antiqua" size="20.0" />
+</font>
+</Text>
+<Text layoutX="382.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAINS">
+<font>
+<Font name="Book Antiqua" size="20.0" />
+</font>
+</Text>
+<Text layoutX="686.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESSERTS">
+<font>
+<Font name="Book Antiqua" size="20.0" />
+</font>
+</Text>
+<Line endX="28.666671752929688" layoutX="155.0" layoutY="357.0" startX="-100.0" stroke="ORANGE" />
+<Line endX="-18.666656494140625" layoutX="483.0" layoutY="357.0" startX="-100.0" stroke="ORANGE" />
+<Line endX="9.33331298828125" layoutX="787.0" layoutY="358.0" startX="-100.0" stroke="ORANGE" />
+<ImageView fitHeight="60.0" fitWidth="115.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+<ImageView fitHeight="72.0" fitWidth="200.0" layoutX="838.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@Screenshot%20(16).png" />
+</image>
+</ImageView>
+<CheckBox fx:id="CM3kande" layoutX="30.0" layoutY="370.0" mnemonicParsing="false" text="KANDE POHE">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3upma" layoutX="30.0" layoutY="395.0" mnemonicParsing="false" text="UPMA">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3baji" layoutX="30.0" layoutY="420.0" mnemonicParsing="false" text="KANDA BAJI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3vada" layoutX="30.0" layoutY="445.0" mnemonicParsing="false" text="VADA PAV">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3kothibir" layoutX="30.0" layoutY="495.0" mnemonicParsing="false" text="KOTHIBIR VADI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3tarri" layoutX="30.0" layoutY="520.0" mnemonicParsing="false" text="TARRI POHE">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3thali" layoutX="30.0" layoutY="545.0" mnemonicParsing="false" text="THALIPEETH">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3batata" layoutX="30.0" layoutY="470.0" mnemonicParsing="false" text="BATATA VADA">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3puran" layoutX="355.0" layoutY="370.0" mnemonicParsing="false" text="PURANPOLI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3pandhra" layoutX="355.0" layoutY="470.0" mnemonicParsing="false" text="PANDHRA RASSA">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3aamti" layoutX="355.0" layoutY="495.0" mnemonicParsing="false" text="AAMTI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3vangi" layoutX="355.0" layoutY="520.0" mnemonicParsing="false" text="BHARLELI VANGI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3kadhi" layoutX="355.0" layoutY="545.0" mnemonicParsing="false" text="KADHI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3tambda" layoutX="355.0" layoutY="445.0" mnemonicParsing="false" text="TAMBADA RASSA">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3misal" layoutX="355.0" layoutY="420.0" mnemonicParsing="false" text="MISAL PAV">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3pithla" layoutX="355.0" layoutY="395.0" mnemonicParsing="false" text="PITHLA BHAKRI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3modak" layoutX="660.0" layoutY="370.0" mnemonicParsing="false" text="MODAK">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3shreekhand" layoutX="660.0" layoutY="420.0" mnemonicParsing="false" text="SHREEKHAND">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3sol" layoutX="660.0" layoutY="445.0" mnemonicParsing="false" text="SOL KHADI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3basundi" layoutX="660.0" layoutY="470.0" mnemonicParsing="false" text="BASUNDI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3aamrakha" layoutX="660.0" layoutY="495.0" mnemonicParsing="false" text="AAMRAKHAND">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+<CheckBox fx:id="CM3aamras" layoutX="660.0" layoutY="395.0" mnemonicParsing="false" text="AAMRAS">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</CheckBox>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="926.0" layoutY="534.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(19).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="922.0" layoutY="529.0" mnemonicParsing="false" onAction="#switchToSouthPaid" opacity="0.0" prefHeight="60.0" prefWidth="57.0" text="Button" />
+      <Button fx:id="Proceed" layoutX="755.0" layoutY="269.0" mnemonicParsing="false" onAction="#PTP2" prefHeight="35.0" prefWidth="210.0" style="-fx-background-color: FFEE99; -fx-border-color: FFA500;" text="PROCEED TO PAYMENT">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font></Button>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="797.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@60817.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="797.0" layoutY="19.0" mnemonicParsing="false" onAction="#switchToWelcomePage" opacity="0.0" prefHeight="30.0" prefWidth="36.0" text="Button" />
+</children>
+</AnchorPane>

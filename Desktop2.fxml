@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PageController">
+   <children>
+      <ImageView fitHeight="627.0" fitWidth="1020.0" layoutX="-9.0" layoutY="-12.0" pickOnBounds="true">
+         <image>
+            <Image url="@Screenshot%202021-11-13%20161339.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="75.0" layoutX="-11.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="1020.0" />
+      <Text layoutX="128.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEJWAANI" wrappingWidth="217.3301544189453">
+         <font>
+            <Font name="Calisto MT" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnuserLD2" layoutX="177.0" layoutY="494.0" mnemonicParsing="false" onAction="#switchToMahaPaid2" prefHeight="44.0" prefWidth="95.0" style="-fx-background-color: DA4E4E;" text="Login" textFill="#ffee99">
+         <font>
+            <Font name="Baskerville Old Face" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnuserSD2" layoutX="635.0" layoutY="494.0" mnemonicParsing="false" onAction="#switchToMahaPaid1" prefHeight="44.0" prefWidth="107.0" style="-fx-background-color: DA4E4E;" text="Sign Up" textFill="#ffee99">
+         <font>
+            <Font name="Baskerville Old Face" size="22.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="168.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email ID">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtuserLD2email" alignment="CENTER" layoutX="137.0" layoutY="254.0" opacity="0.87" prefHeight="28.0" prefWidth="175.0" promptText="Email ID">
+         <font>
+            <Font name="Baskerville Old Face" size="15.0" />
+         </font></TextField>
+      <Text fill="WHITE" layoutX="173.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#ffee99" layoutX="96.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Already a user">
+         <font>
+            <Font name="Baskerville Old Face" size="44.0" />
+         </font>
+      </Text>
+      <Text fill="#ffee99" layoutX="598.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New user">
+         <font>
+            <Font name="Baskerville Old Face" size="44.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="527.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="525.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="525.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="525.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtuserSD2name" alignment="CENTER" layoutX="689.0" layoutY="191.0" opacity="0.87" prefHeight="28.0" prefWidth="183.0" promptText="Enter Name">
+         <font>
+            <Font name="Baskerville Old Face" size="15.0" />
+         </font></TextField>
+      <TextField fx:id="txtuserSD2contact" alignment="CENTER" layoutX="689.0" layoutY="319.0" opacity="0.87" prefHeight="28.0" prefWidth="183.0" promptText="Enter Contact ">
+         <font>
+            <Font name="Baskerville Old Face" size="15.0" />
+         </font></TextField>
+      <ImageView fitHeight="60.0" fitWidth="115.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@LOGO_Mejwaani.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="168.0" layoutX="854.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Screenshot%20(16).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="18.0" layoutY="538.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(19).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="17.0" layoutY="538.0" mnemonicParsing="false" onAction="#switchToWelcomePage" opacity="0.0" prefHeight="50.0" prefWidth="52.0" text="Button" />
+      <PasswordField fx:id="txtuserLD2pass" alignment="CENTER" layoutX="137.0" layoutY="411.0" prefHeight="28.0" prefWidth="175.0" promptText="Enter Password">
+         <font>
+            <Font name="Baskerville Old Face" size="15.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="txtuserSD2pass" alignment="CENTER" layoutX="689.0" layoutY="440.0" prefHeight="28.0" prefWidth="183.0" promptText="Enter Password" style="-fx-background-color: FFFFFF;">
+         <font>
+            <Font name="Baskerville Old Face" size="15.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="txtuserSD2address" alignment="CENTER" layoutX="689.0" layoutY="254.0" opacity="0.87" prefHeight="28.0" prefWidth="183.0" promptText="Enter Address">
+         <font>
+            <Font name="Baskerville Old Face" size="15.0" />
+         </font>
+      </TextField>
+      <Text fill="WHITE" layoutX="525.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email ID">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtuserSD2email" alignment="CENTER" layoutX="689.0" layoutY="381.0" opacity="0.87" prefHeight="28.0" prefWidth="183.0" promptText="Email ID" style="-fx-background-color: FFFFFF;">
+         <font>
+            <Font name="Baskerville Old Face" size="15.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

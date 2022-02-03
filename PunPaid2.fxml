@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PageController">
+   <children>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="862.0" layoutY="534.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(19).png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="83.0" layoutX="-7.0" layoutY="-8.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1014.0" />
+      <ImageView fitHeight="160.0" fitWidth="1014.0" layoutX="-7.0" layoutY="74.0" pickOnBounds="true">
+         <image>
+            <Image url="@Screenshot%202021-11-13%20163808.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="115.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@LOGO_Mejwaani.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="128.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEJWAANI">
+         <font>
+            <Font name="Calisto MT" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="45.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PUNJABI CUISINE">
+         <font>
+            <Font name="Baskerville Old Face" size="25.0" />
+         </font>
+      </Text>
+      <Line endX="329.0000305175781" layoutX="146.0" layoutY="309.0" startX="-100.0" stroke="ORANGE" />
+      <Text layoutX="57.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BREAKFAST">
+         <font>
+            <Font name="Book Antiqua" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="382.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAINS">
+         <font>
+            <Font name="Book Antiqua" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="686.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESSERTS">
+         <font>
+            <Font name="Book Antiqua" size="20.0" />
+         </font>
+      </Text>
+      <Line endX="28.666671752929688" layoutX="155.0" layoutY="357.0" startX="-100.0" stroke="ORANGE" />
+      <Line endX="-18.666656494140625" layoutX="483.0" layoutY="357.0" startX="-100.0" stroke="ORANGE" />
+      <Line endX="9.33331298828125" layoutX="787.0" layoutY="358.0" startX="-100.0" stroke="ORANGE" />
+      <ImageView fitHeight="68.0" fitWidth="168.0" layoutX="838.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Screenshot%20(16).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="853.0" layoutY="532.0" mnemonicParsing="false" onAction="#switchToGujuPaid2" opacity="0.0" prefHeight="60.0" prefWidth="68.0" text="Button" />
+      <CheckBox layoutX="25.0" layoutY="370.0" mnemonicParsing="false" text="CHOLE BHATURE">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="25.0" layoutY="397.0" mnemonicParsing="false" text="POORI BHAJI">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="25.0" layoutY="423.0" mnemonicParsing="false" text="AMRITSARI KULCHA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="25.0" layoutY="449.0" mnemonicParsing="false" text="POORI CHOLE">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="25.0" layoutY="474.0" mnemonicParsing="false" text="ALOO PARATHA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="25.0" layoutY="499.0" mnemonicParsing="false" text="LACCHA PARATHA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="25.0" layoutY="524.0" mnemonicParsing="false" text="AMRITSARI SOYA CHAAP">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="353.0" layoutY="370.0" mnemonicParsing="false" text="DAL MAKHANI">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="353.0" layoutY="395.0" mnemonicParsing="false" text="ALOO JEERA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="353.0" layoutY="423.0" mnemonicParsing="false" text="GOBI PARATHA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="353.0" layoutY="449.0" mnemonicParsing="false" text="PALAK PANEER">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="353.0" layoutY="474.0" mnemonicParsing="false" text="SARSONO KA SAAG">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="353.0" layoutY="499.0" mnemonicParsing="false" text="BHINDI DO PYAZA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="353.0" layoutY="524.0" mnemonicParsing="false" text="MALAI KOFTA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="662.0" layoutY="372.0" mnemonicParsing="false" text="SUJI HALWA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="662.0" layoutY="398.0" mnemonicParsing="false" text="SHAHI TUKDA">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="662.0" layoutY="423.0" mnemonicParsing="false" text="DRY FRUIT KHEER">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="662.0" layoutY="449.0" mnemonicParsing="false" text="MEETHI LASSI">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="662.0" layoutY="474.0" mnemonicParsing="false" text="MANGO LASSI">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="662.0" layoutY="499.0" mnemonicParsing="false" text="MASALA CHASS">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="755.0" layoutY="269.0" mnemonicParsing="false" onAction="#switchToBILL" prefHeight="35.0" prefWidth="210.0" style="-fx-background-color: FFEE99; -fx-border-color: FFA500;" text="PROCEED TO PAYMENT">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="261.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="261.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="261.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="261.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="80/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="261.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="261.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="261.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="556.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="556.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="556.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="80/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="556.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="556.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="556.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="556.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="80/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="865.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="80/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="865.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="90/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="865.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="865.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="865.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="80/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="865.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60/-">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="797.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@60817.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="796.0" layoutY="19.0" mnemonicParsing="false" onAction="#switchToWelcomePage" opacity="0.0" prefHeight="30.0" prefWidth="30.0" text="Button" />
+   </children>
+</AnchorPane>

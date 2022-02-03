@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PageController">
+<children>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="926.0" layoutY="534.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(16).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="862.0" layoutY="534.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(16).png" />
+         </image>
+      </ImageView>
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="83.0" layoutX="-7.0" layoutY="-8.0" stroke="BLACK" strokeType="INSIDE" width="1014.0" />
+<ImageView fitHeight="165.0" fitWidth="1014.0" layoutX="-7.0" layoutY="69.0" pickOnBounds="true">
+<image>
+<Image url="@Guju.png" />
+</image>
+</ImageView>
+<ImageView fitHeight="60.0" fitWidth="115.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@LOGO_Mejwaani.png" />
+</image>
+</ImageView>
+<Text layoutX="128.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEJWAANI">
+<font>
+<Font name="Calisto MT" size="36.0" />
+</font>
+</Text>
+<Text layoutX="45.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GUJARATI CUISINE">
+<font>
+<Font name="Baskerville Old Face" size="25.0" />
+</font>
+</Text>
+<Line endX="329.0000305175781" layoutX="146.0" layoutY="309.0" startX="-100.0" stroke="ORANGE" />
+<Text layoutX="57.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BREAKFAST">
+<font>
+<Font name="Book Antiqua" size="20.0" />
+</font>
+</Text>
+<Text layoutX="57.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="METHI THEPLA">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="57.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAUKI THEPLA">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="57.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOOLI THEPLA">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="57.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="METHI MUTHIA">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="57.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FAFDA">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="57.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JALEBI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="382.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAINS">
+<font>
+<Font name="Book Antiqua" size="20.0" />
+</font>
+</Text>
+<Text layoutX="373.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" UNDIHIYNI" wrappingWidth="90.90087890625">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="377.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KADHI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="377.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BARDOLI KI KHICHDI ">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="377.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEV TAMETA NU SHAK ">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="377.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MURGHANU SHAAK">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="686.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESSERTS">
+<font>
+<Font name="Book Antiqua" size="20.0" />
+</font>
+</Text>
+<Text layoutX="686.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUKHDI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="686.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DOODHPAK">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="686.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOHANTAL">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="686.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KANSAR">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="686.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RABDI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Line endX="28.666671752929688" layoutX="155.0" layoutY="357.0" startX="-100.0" stroke="ORANGE" />
+<Line endX="-18.666656494140625" layoutX="483.0" layoutY="357.0" startX="-100.0" stroke="ORANGE" />
+<Line endX="9.33331298828125" layoutX="787.0" layoutY="358.0" startX="-100.0" stroke="ORANGE" />
+<Text layoutX="57.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KHADVI">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+<Text layoutX="686.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GEHU K HALWA">
+<font>
+<Font name="Book Antiqua" size="15.0" />
+</font>
+</Text>
+      <ImageView fitHeight="68.0" fitWidth="168.0" layoutX="838.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Screenshot%20(16).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="855.0" layoutY="531.0" mnemonicParsing="false" onAction="#switchToSouthIndian" opacity="0.0" prefHeight="60.0" prefWidth="63.0" text="Button" />
+      <Button layoutX="920.0" layoutY="524.0" mnemonicParsing="false" onAction="#switchToPunjabiCuisine" opacity="0.0" prefHeight="68.0" prefWidth="60.0" text="Button" />
+      <Text layoutX="377.0" layoutY="512.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAGLI ROTI">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="377.0" layoutY="534.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GUJARATI DAL">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="797.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@60817.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="787.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToWelcomePage" opacity="0.0" prefHeight="42.0" prefWidth="48.0" text="Button" />
+</children>
+</AnchorPane>

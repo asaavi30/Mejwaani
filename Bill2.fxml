@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PageController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1000.0" layoutY="3.0" opacity="0.5" pickOnBounds="true">
+         <image>
+            <Image url="@Screenshot%202021-10-28%20192332.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="75.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1000.0" />
+      <ImageView fitHeight="60.0" fitWidth="115.0" layoutX="14.0" layoutY="6.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@LOGO_Mejwaani.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="168.0" layoutX="838.0" layoutY="2.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Screenshot%20(16).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="130.0" layoutY="48.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="MEJWAANI">
+         <font>
+            <Font name="Calisto MT" size="36.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="400.0" layoutX="20.0" layoutY="100.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="476.0" layoutX="669.0" layoutY="100.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="300.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eddcd2" height="300.0" layoutX="70.0" layoutY="170.0" opacity="0.65" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Text layoutX="213.0" layoutY="160.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="YOUR ORDER">
+         <font>
+            <Font name="Calisto MT" size="36.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eddcd2" height="190.0" layoutX="694.0" layoutY="167.0" opacity="0.65" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="250.0" />
+      <Text layoutX="777.0" layoutY="159.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="BILL">
+         <font>
+            <Font name="Calisto MT" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="144.0" layoutY="209.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="ORDER">
+         <font>
+            <Font name="Felix Titling" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="420.0" layoutY="209.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="QUANTITY">
+         <font>
+            <Font name="Felix Titling" size="18.0" />
+         </font>
+      </Text>
+      <ScrollBar layoutX="555.0" layoutY="170.0" opacity="0.5" orientation="VERTICAL" prefHeight="300.0" prefWidth="14.0" />
+      <ScrollBar layoutX="929.0" layoutY="167.0" opacity="0.5" orientation="VERTICAL" prefHeight="190.0" prefWidth="14.0" />
+      <Text layoutX="716.0" layoutY="400.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL AMOUNT">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eddcd2" height="50.0" layoutX="694.0" layoutY="410.0" opacity="0.65" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="250.0" />
+      <CheckBox layoutX="722.0" layoutY="480.0" mnemonicParsing="false" opacity="0.5" text="CASH">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="841.0" layoutY="480.0" mnemonicParsing="false" opacity="0.5" text="GPAY">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="253.0" layoutY="525.0" mnemonicParsing="false" opacity="0.5" style="-fx-background-color: BLACK;" text="CONFIRM" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="797.0" layoutY="18.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@60817.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="794.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToWelcomePage" opacity="0.0" prefHeight="42.0" prefWidth="38.0" text="Button" />
+      <Button layoutX="748.0" layoutY="524.0" mnemonicParsing="false" opacity="0.5" style="-fx-background-color: BLACK;" text="CONFIRM" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffbc00" height="250.0" layoutX="271.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="482.0" AnchorPane.bottomAnchor="175.0" AnchorPane.topAnchor="175.0" />
+      <Text layoutX="324.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ORDER CONFIRMED">
+         <font>
+            <Font name="Calisto MT" size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="470.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(20).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="389.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THANK YOU">
+         <font>
+            <Font name="Calisto MT" size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="92.0" fitWidth="92.0" layoutX="620.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngwing.com.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="92.0" layoutX="294.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngwing.com.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
